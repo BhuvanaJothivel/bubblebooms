@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+body{
+    display: flex;
+    flex-direction: row;
+    background-image: url(/assets/screen-1.png);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; 
+
+   margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.play{
+    position: absolute;
+    top: 700px;
+    left: 620px;
+    background-image: url(/assets/Rectangle3.svg);
+    width: 200px;
+    height: 65px;    
+    border-radius: 30%;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: pacifico;
+    text-align: center;
+    color: white;
+}
+
